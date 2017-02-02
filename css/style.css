@@ -91,7 +91,7 @@ h1.brand {
 
 
 #meetourteamSection{ padding:70px 0 ; background:#FFFFFF;  text-align: center; }
-#meetourteamSection h1{ text-transform:uppercase; color:#909090; padding:0; font-size:60px;}
+#meetourteamSection h1{ text-transform:uppercase; color:#464646; padding:0; font-size:60px;}
 #meetourteamSection .thumbnails  p {
     color: #909090;
     font-size: 22px;
@@ -100,7 +100,7 @@ h1.brand {
 }
 
 #meetourteamSection  p {
-    color: #909090;
+    color: #464646;
     font-size: 19px;
     line-height: 27px;
 	margin: 15px 0;
