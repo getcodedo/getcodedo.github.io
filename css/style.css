@@ -27,13 +27,17 @@ h1 {
     padding: 0px;
     font-weight: 200;
     font-size: 32px;
-    color: #3f3f3f;
+    color: #0D142A;
     margin: 0;
     text-rendering: optimizelegibility;
 }
 
 h4 {
-    color: #3f3f3f;
+    color: #0D142A;
+}
+
+h5 {
+    color: #198CC6;
 }
 
 .debug {
@@ -150,6 +154,13 @@ h1.brand {
     color: #fff;
 }
 
+#ourServices h1 {
+    text-transform: uppercase;
+    color: #0D142A;
+    padding: 0;
+    font-size: 60px;
+}
+
 #portfolioSection {
     background: #99d4a5;
     text-align: center;
@@ -196,7 +207,7 @@ h1.brand {
 
 #meetourteamSection h1 {
     text-transform: uppercase;
-    color: #464646;
+    color: #0D142A;
     padding: 0;
     font-size: 60px;
 }
@@ -209,7 +220,7 @@ h1.brand {
 }
 
 #meetourteamSection p {
-    color: #464646;
+    color: #0D142A;
     font-size: 19px;
     line-height: 27px;
     margin: 15px 0;
@@ -223,11 +234,11 @@ h1.brand {
     background: none !important;
 }
 
-.thumbnails li img:hover {
+/*.thumbnails li img:hover {
     opacity: .5;
     transition: all ease-in .5s;
     transform: scale(1.1);
-}
+}*/
 
 .thumbnail {
     overflow: hidden !important;
@@ -465,9 +476,9 @@ h1.brand {
     text-align: center
 }
 
-.blockDtl:hover {
+/*.blockDtl:hover {
     color: #FE5214
-}
+}*/
 
 #shadow {
     min-height: 44px;
@@ -864,6 +875,8 @@ a.twitter:hover, a.facebook:hover, a.html5:hover, a.icon2:hover, a.pin:hover {
     background: none;
     border: none;
     display: none;
+    position: absolute;
+    top: 25px;
 }
 
 .ddbtn img {
